@@ -1,13 +1,13 @@
 {
   "name": "tokenthrottle-redis",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A Redis-backed tokenthrottle implementation. See http://npm.im/tokenthrottle",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "tokenthrottle": "~1.3.0",
+    "tokenthrottle": "subzero10/node-tokenthrottle",
     "redis": "~2.4.2"
   },
   "devDependencies": {
@@ -18,16 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:brycebaril/node-tokenthrottle-redis.git"
+    "url": "git@github.com:subzero10/node-tokenthrottle-redis.git"
   },
   "keywords": [
     "throttle",
     "ratelimit",
     "redis"
   ],
-  "author": "Bryce B. Baril",
+  "author": "Pangratios Cosma",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brycebaril/node-tokenthrottle-redis/issues"
+    "url": "https://github.com/subzero10/node-tokenthrottle-redis/issues"
   }
 }
